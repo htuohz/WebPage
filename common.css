@@ -1,0 +1,271 @@
+html, body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei', '\5FAE\8F6F\96C5\9ED1', 'å¾®è½¯é›…é»‘', 'é»‘ä½“', 'å®‹ä½“', 'arial', 'sans-serif';
+    color: #333;
+    min-width:320px!important;
+}
+
+a {
+    border: none;
+    outline: none;
+    color: #333;
+    text-decoration: none;
+    -webkit-transition: color 0.1s;
+    -moz-transition: color 0.1s;
+    -o-transition: color 0.1s;
+    transition: color 0.1s;
+}
+
+a:hover {
+    color: #01458e;
+}
+
+img {
+    border: none;
+    outline: none;
+}
+
+h1, h2, h3, h4, ul, li, dl, ol,p,table,td ,dd{
+    padding: 0;
+    margin: 0;
+}
+
+ul, li, ol, dl, dt, dd {
+    list-style: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.iln {
+    display: inline;
+}
+
+.ibk {
+    display: inline-block;
+}
+
+.bk {
+    display: block;
+}
+
+.p_rel, .p-rel {
+    position: relative;
+}
+
+.p_abs, .p-abs {
+    position: absolute;
+}
+.none{
+    display:block;
+    width:0;
+    height:0;
+    overflow:hidden;
+}
+.cut{
+    overflow:hidden;
+}
+.tc{
+    text-align: center;
+}
+.tl{
+    text-align: left;
+}
+.tr{
+    text-align: right;
+}
+
+
+
+/* PAGES BEGIN */
+div.pages{
+    width:100%;
+    max-width:1200px;
+    margin:50px auto 50px;
+    text-align: center;
+}
+div.pages li{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    font-size:1.4rem;
+    margin:0 1px;
+    height:28px;
+    line-height:28px;
+    border:1px solid #666;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+div.pages li a{
+    display:block;
+    padding: 0 12px;
+    height:100%;
+    color:#666;
+    font-size:12px;
+}
+div.pages li.on,div.pages li:not(.disable):hover{
+    /*background:#ed1c24;*/
+    border-color: #ed1c24;
+}
+div.pages li.on a,div.pages li:not(.disable):hover a{
+    color: #ed1c24;
+}
+div.pages li.disable{
+    border-color: #ccc;
+}
+div.pages li.disable a{
+    color:#ccc;
+}
+
+@media screen and (max-width: 750px){
+    div.pages li:first-child , div.pages li:last-child{
+        display:none;
+    }
+    /*div.pages li:nth-child(3) , div.pages li:nth-child(4) , div.pages li:nth-child(5) , div.pages li:nth-child(7) , div.pages li:nth-child(8){
+        display: none;
+    }*/
+}
+/* PAGES END */
+
+
+/* PLACE BEGIN */
+section.position{
+    margin-top: 20px;
+    max-width: 1200px;
+    margin:20px auto 0;
+}
+section.position div.place{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+}
+section.position div.place strong{
+    font-weight: normal;
+}
+section.position div.place a{
+    color:#666;
+}
+/* PLACE END */
+
+
+/* BANNER BEGIN */
+section.banner{
+    position: relative;
+}
+.swiper-container{
+    height: 100%;
+}
+.swiper-wrapper{
+    height: 100%;
+}
+.swiper-slide{
+    height: 100%;
+}
+.swiper-slide a{
+    display: block;
+    height: 100%;
+    background-position: center center;
+}
+section.banner div.banner_word_lay{
+    width:100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    text-align: center;
+    color:#fff;
+    z-index: 9;
+}
+section.banner div.banner_word{
+    width:100%;
+    text-align: center;
+    position: absolute;
+    top:50%;
+    transform: translate(0,-50%);
+}
+section.banner div.banner_word h2{
+    font-size:48px;
+    font-weight: normal;
+}
+section.banner div.banner_word small{
+    font-size: 22px;
+}
+section.banner div.banner_word div.vertical_line{
+    width:1px;
+    height: 28px;
+    background:#fff;
+    margin:0 auto;
+}
+/* BANNER END */
+
+
+
+/* åº•éƒ¨å¯æŠ˜å éƒ¨åˆ†æ ·å¼ */
+#talk_online{
+    width:152px;
+    position:fixed;
+    right:0px;
+    top:50%;
+    text-align: center;
+    background: #fff;
+}
+#talk_online .talk_main{
+    margin-bottom: 20px;
+}
+#talk_online .talk_main h2{
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    color:#fff;
+    font-weight: normal;
+    background: #004ea1;
+    margin-bottom: 20px;
+}
+#talk_online .talk_main h3{
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+}
+#talk_online .talk_foot{
+    height: 40px;
+    line-height: 20px;
+    background: url('../img/jiantou.png') #004ea1 no-repeat center;
+}
+@media only screen and (max-width: 1200px) {
+    #talk_online{
+        width: 40px;
+    }
+    #talk_online .talk_main{
+        display: none;
+    }
+}

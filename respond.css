@@ -1,0 +1,370 @@
+/* width>1200 */
+@media screen and (min-width:1200px){
+	section.about table tr td:nth-child(2){
+		width: 1200px;
+	}
+	header.header nav.mobile_nav{
+		display: none;
+	}
+
+	footer .company_info{
+		width: 552px;
+		padding-left:54%;
+	}
+
+}
+
+/* 960<width<1200 */
+@media screen and (max-width:1200px) and (min-width:960px){
+	header.header nav.mobile_nav{
+		display: none;
+	}
+	section.news{
+		padding:0 20px;
+	}
+	section.flinks{
+		box-sizing: border-box;
+		padding-left: 20px;
+	}
+
+
+	footer .footer_box{
+		box-sizing: border-box;
+		padding-left:20px;
+	}
+	footer .footer_box .footer_nav_wrap dl:last-child{
+		display: none;
+	}
+	footer .footer_box .company_info{
+		width: 552px;
+		float: right;
+		margin-right:10px;
+		/*padding-left:408px;*/
+	}
+	footer .footer_box .company_info .contact{
+		padding-right: 1px;
+	}
+	footer .footer_box .company_info .contact span{
+		display: block;
+		width:100%;
+	}
+	footer .icp{
+		box-sizing: border-box;
+		padding-left: 20px;
+	}
+	footer .icp span:last-child{
+		display: none;
+	}
+}
+
+/* 750<width<960 */
+@media screen and (max-width:960px) and (min-width: 750px){
+	header.header div.top{
+		display: none;
+	}
+	header.header div.bottom{
+		/*padding-bottom:20px;*/
+	}
+	header.header nav.mobile_nav{
+		display: none;
+	}
+	header.header nav.nav{
+		max-width:960px;
+	}
+	header.header nav.nav li.tel{
+		display:none;
+	}
+
+	section.about table tr td:first-child , section.about table tr td:last-child{
+		display: none;
+	}
+	section.about table tr td:nth-child(2) .left{
+		width: 100%;
+		background: none;
+		color: #333;
+		text-align: center;
+	}
+	section.about table tr td:nth-child(2) .left strong{
+		border:none;
+		font-size: 28px;
+		font-weight: normal;
+	}
+	section.about table tr td:nth-child(2) .left p{
+	    display: block;
+	    font-size: 12px;
+	    line-height: 12px;
+	    margin-top: 8px;
+	    color: #999;
+	    font-family: 'Arial';
+	    font-weight: normal;
+	    text-transform: uppercase;
+	}
+	section.about table tr td:nth-child(2) .right{
+		width: 100%;
+	}
+
+	section.partner div.partner_item_wrap{
+		margin:0 20px;
+	}
+
+	section.news{
+		padding: 40px 20px;
+		box-sizing: border-box;
+	}
+
+	section.flinks{
+		display: none;
+	}
+
+	footer .footer_box dl{
+		margin:0 2%;
+	}
+	footer .footer_box .footer_nav_wrap dl:last-child{
+		display: none;
+	}
+	footer .footer_box .footer_nav_wrap dl:nth-child(3){
+		display: none;
+	}
+
+	footer .footer_box .company_info{
+		width: 552px;
+		float: right;
+		margin-right:100px;
+		/*padding-left:408px;*/
+	}
+
+	footer .footer_box .company_info .contact{
+		padding-right: 1px;
+	}
+	footer .footer_box .company_info .contact span{
+		display: block;
+		width:100%;
+	}
+	footer .icp{
+		box-sizing: border-box;
+		padding-left: 20px;
+	}
+	footer .icp span:last-child{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 770px){
+	footer .footer_nav_wrap{
+		display: none;
+	}
+}
+
+/* width<750 */
+@media screen and (max-width:750px){
+	/*body{
+		min-width: 750px;
+	}*/
+	header.header div.top{
+		display: none;
+	}
+	header.header nav.nav{
+		display: none;
+	}
+	header.header nav.nav li.tel{
+		display:none;
+	}
+	header.header nav.mobile_nav{
+		display: block;
+	}
+
+
+	/*æ‰‹æœºç«¯é¦–é¡µbanner*/
+	#banner_index .swiper-slide a{
+		height: 0;
+		padding-bottom:50%;
+	}
+
+	/*å«æœ‰æ ç›®è¯´æ˜Žçš„banner*/
+	section.banner div.banner_word h2{
+		font-size: 30px!important;
+	}
+	section.banner div.banner_word small{
+		font-size: 13px!important;
+	}
+
+
+	/*æ¡ˆä¾‹åˆ†ç±»*/
+	section.cases ul.sub{
+		margin-top:20px;
+	}
+	section.cases ul.sub li{
+		width:25%;
+		margin:0 auto 10px;
+	}
+	section.cases ul.sub li a{
+		height: 36px;
+		line-height: 36px;
+	}
+	section.cases ul.sub li a i{
+		display: none;
+	}
+	section.cases ul.list{
+		margin-top:20px;
+		max-width: 770px;
+		overflow: hidden;
+	}
+	/*æ¡ˆä¾‹åˆ†ç±» end*/
+
+	section > p.title_desc{
+		margin:6px 20px;
+	}
+
+	section.cases ul.list{
+
+	}
+	section.cases ul.list li{
+		width: 50%!important;
+	}
+	section.cases ul.list li a{
+		/*width:320px;*/
+		width: 100%;
+		padding:0 5px;
+		box-sizing: border-box;
+	}
+	section.cases ul.list li span.thumb{
+		/*width:320px;
+		height: 225px;
+		padding-bottom: 0;*/
+		width: 100%;
+		height: 0;
+		padding-bottom: 70%;
+	}
+	section.cases ul.list li span.thumb span{
+		top:80%;
+	}
+	section.cases ul.list li span.thumb span > b{
+		height: 26px;
+		line-height:26px;
+		font-size: 12px
+	}
+
+	section.about table tr td:first-child , section.about table tr td:last-child{
+		display: none;
+	}
+	section.about table tr td:nth-child(2) .left{
+		width: 100%;
+		padding-left: 10%;
+		background: none;
+		color: #333;
+	}
+	section.about table tr td:nth-child(2) .left strong{
+		border:none;
+
+	}
+	section.about table tr td:nth-child(2) .right{
+		width: 100%;
+	}
+
+	section.server .server_item_wrap{
+		margin:0 20px;
+	}
+	section.server .server_item_wrap .server_item{
+		width: 50%;
+		max-width: 375px;
+	}
+	section.server .server_item_wrap .server_item > div{
+		max-width: 375px;
+		margin-bottom:20px;
+	}
+
+	section.choose .choose_item_wrap{
+		margin: 0 20px;
+	}
+
+	section.news{
+		padding: 20px!important;
+	}
+	section.news .news_box .news_cate_item{
+		width: 100%;
+		margin-bottom:20px;
+	}
+	section.news .news_box .news_cate_item > div{
+		margin: 0!important;
+	}
+
+	section.partner div.partner_item_wrap{
+		margin:0 20px;
+	}
+
+	section.flinks{
+		display: none;
+	}
+
+	footer .footer_box{
+		margin:0 20px;
+	}
+
+	footer .footer_nav_wrap{
+		display: none;
+	}
+
+	footer .footer_box .company_info div.online{
+		margin-bottom:0;
+	}
+	footer .footer_box .company_info{
+		text-align:center;
+	}
+	footer .footer_box .company_info .gongzhonghao{
+		display: none;
+	}
+	footer .footer_box .company_info .contact{
+		padding-left: 0px!important;
+		text-align: left;
+	}
+	footer .footer_box .company_info .contact span{
+		width: 100%;
+	}
+	footer .footer_box .company_info .online , footer .footer_box .company_info .gongzhonghao , footer .footer_box .company_info .contact{
+		width: 100%;
+		clear:both;
+	}
+	footer .footer_box .company_info{
+		padding-left: 0;
+	}
+	footer .footer_box .company_info > span{
+		text-align: center;
+	}
+	footer .footer_box .company_info > a{
+		display: block;
+		width:100%;
+		text-align: center;
+	}
+	footer .footer_box .company_info .gongzhonghao{
+		width:175px;
+		margin-left:20px;
+	}
+	footer .footer_box .company_info .contact{
+		padding-left:257px;
+	}
+	footer .footer_box .company_info .contact span{
+		display: block;
+	}
+	footer .icp{
+		height: 40px;
+		padding:5px 0;
+	}
+	footer .icp span:first-child{
+		display: block;
+		width:100%;
+		font-size: 13px;
+		line-height:20px;
+		text-align: center;
+	}
+	footer .icp span:last-child{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width:750px) and (min-width:414px){
+	section.cases ul.list li span.thumb span{
+		top:85%;
+	}
+}
