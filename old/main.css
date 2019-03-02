@@ -1,0 +1,42 @@
+p {
+	font-size: 12px;
+	color: red;
+
+}
+
+.deck{
+	font-size: 16px;
+	background: currentColor;
+}
+
+#header{
+	font-size: 20px;
+	color: blue;
+	width: 200px;
+	height: 300px;
+	opacity: 0.7;
+	background-color: red;
+}
+
+#main_content {
+	font-size: 20px;
+	color: yellow;
+}
+
+#main_content > p {
+	font-size: 12px;
+	color: orange;
+}
+
+#main_content #child_content p {
+	font-size: 32px;
+	color: green;
+	font-weight: bold;
+}
+
+div[id="header"]
+{
+	background: red;
+	font-size: 40px;
+
+}
